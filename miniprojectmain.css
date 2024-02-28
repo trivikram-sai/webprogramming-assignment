@@ -1,0 +1,299 @@
+html {
+  padding: 0px;
+  height: 0px;
+}
+
+.bar {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.bar:hover {
+  color: yellow;
+}
+
+nav {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacthtml {
+  background-color: silver;
+}
+
+.contactop {
+  text-align: center;
+  font-size: 45px;
+}
+
+.contactp {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.leftcontact {
+  font-size: 35px;
+}
+
+.contactleftsub {
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.contactleftanc {
+  text-decoration: none;
+  color: white;
+}
+
+.contactleft {
+  display: inline-block;
+  height: 100vh;
+  background-color: rgb(1, 1, 64);
+  width: 27%;
+  color: white;
+  padding: 20px;
+  text-align: justify;
+  padding-left: 3%;
+  padding-top: 5%;
+}
+
+.contactwhite {
+  background-color: white;
+  position: relative;
+  padding: 0px;
+}
+.contactright {
+  position: absolute;
+  display: inline-block;
+  height: 100vh;
+  margin: 10px;
+  margin-left: 0px;
+  width: 60%;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+.contactform {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contactbox {
+  height: 25px;
+  width: 20%;
+  margin-top: 8px;
+}
+
+.contactcbox {
+  height: 30px;
+  width: 20px;
+}
+
+.contactspa {
+  margin-top: 8px;
+  height: 90px;
+  width: 30%;
+}
+
+.contactfinish {
+  background-color: rgb(1, 1, 64);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.contactfinish:hover {
+  background-color: gray;
+}
+
+.abouthead {
+  background-color: rgb(218, 217, 217);
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.aboutproject {
+  height: 28vh;
+  background-color: rgb(14, 14, 128);
+  color: rgb(227, 217, 217);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 125px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.aboutmainproject {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(14, 14, 128);
+  color: rgb(227, 217, 217);
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 125px;
+}
+
+.aboutmainhead {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  color: rgb(1, 1, 64);
+  animation-name: emphasis;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes emphasis {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.aboutmainheadnoanimate {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  color: rgb(1, 1, 64);
+}
+
+.aboutsubhead {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(215, 215, 215);
+}
+
+.aboutflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutinline {
+  width: 28%;
+  font-size: 20px;
+  text-align: center;
+  background-color: silver;
+  margin: 30px;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.782);
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.aboutinline:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  background-color: white;
+}
+
+.abouthtml {
+  background-color: rgb(1, 1, 64);
+}
+
+.moduleshead {
+  background-color: rgb(218, 217, 217);
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  position: relative;
+}
+
+.modulesmainhead {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  font-size: 80px;
+  color: rgb(1, 1, 64);
+}
+
+.modulesdetailmainhead {
+  position: absolute;
+  top: 15%;
+  left: 43%;
+  font-size: 80px;
+  color: rgb(1, 1, 64);
+}
+
+.modules {
+  background-color: rgb(1, 1, 64);
+}
+
+.inlinemodule {
+  height: 7vh;
+  background-color: silver;
+  margin: 10px;
+  clear: right;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0px 0px;
+  border-radius: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.782);
+  padding-top: 42px;
+  font-size: 30px;
+}
+
+.inlinemodule:hover {
+  transform: scale(1.2);
+  background-color: white;
+  font-weight: bold;
+}
+
+.blockmodule {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 200px;
+}
+
+.topspacemodule {
+  margin: 100px;
+}
+
+.inlinedetailmodule {
+  height: 10vh;
+  background-color: silver;
+  margin: 10px;
+  clear: right;
+  margin-bottom: 40px;
+  width: 40%;
+  border-radius: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.782);
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+.inlinedetailmodule:hover {
+  transform: scale(1.2);
+  background-color: white;
+  font-weight: bold;
+}
+
+.blockdetailmodule {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
